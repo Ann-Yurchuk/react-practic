@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Ann-Yurchuk.github.io/react-practic/static/css/main.7acaea2f.css",
-    "main.js": "/Ann-Yurchuk.github.io/react-practic/static/js/main.07d3183d.js",
-    "index.html": "/Ann-Yurchuk.github.io/react-practic/index.html",
-    "main.7acaea2f.css.map": "/Ann-Yurchuk.github.io/react-practic/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/Ann-Yurchuk.github.io/react-practic/static/js/main.07d3183d.js.map"
+    "main.css": "/ann-yurchuk.github.io/react-practic/static/css/main.7acaea2f.css",
+    "main.js": "/ann-yurchuk.github.io/react-practic/static/js/main.07d3183d.js",
+    "index.html": "/ann-yurchuk.github.io/react-practic/index.html",
+    "main.7acaea2f.css.map": "/ann-yurchuk.github.io/react-practic/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/ann-yurchuk.github.io/react-practic/static/js/main.07d3183d.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
