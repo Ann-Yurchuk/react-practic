@@ -1,0 +1,31 @@
+.DropDown{
+    position: relative;
+    width: 400px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.DropDown__menu{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 90%;
+    padding: 20px;
+    text-align: center;
+    background-color: aquamarine;
+    color: white;
+}
+
+.DropDown__toggle{
+    position: relative;
+    border: 1px solid black;
+    border-radius: 30%;
+    text-align: center;
+    font-size: 24px;
+    padding: 30px;
+    cursor: pointer;
+    display: block;
+    width: 100px;
+    height: 40px;
+
+}
