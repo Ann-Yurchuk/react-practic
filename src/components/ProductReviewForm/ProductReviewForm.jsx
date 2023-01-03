@@ -3,11 +3,6 @@ import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import styled from 'styled-components';
 
-
-
-
-const products = ['Sweater', 'Keyboard', 'Sofa', 'Freezer'];
-
 const ErrorText = styled.p`
   color: red;
 `;
@@ -21,6 +16,7 @@ const FormError = ({ name }) => {
   );
 };
 
+const products = ['Sweater', 'Keyboard', 'Sofa', 'Freezer'];
 
 const schema = Yup.object().shape({
   product: Yup.string().required('Please, select a product').oneOf(products),
@@ -43,8 +39,6 @@ const initialValues = {
   date: new Date(),
   wouldRecommend: false,
 };
-
-
 
 export class ProductReviewForm extends Component {
   handleSubmit = (values, { resetForm }) => {
@@ -78,10 +72,10 @@ export class ProductReviewForm extends Component {
           <div>
             <label htmlFor="product">Product</label>
             <div>
-              <Field name="product" as="select" >
+              <Field name="product" as="select">
                 <option value="">Select a product</option>
-                            {products.map(({product, idx}) => (
-                  <option value={product} key={idx}>
+                {products.map((product, id) => (
+                  <option value={product} key={id}>
                     {product}
                   </option>
                 ))}
