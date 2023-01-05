@@ -12,8 +12,8 @@ export default class DropDown extends Component {
     }));
   };
 
-    render() {
-        const { visible } = this.state;
+  render() {
+    const { visible } = this.state;
     return (
       <div className={css.DropDown}>
         <buttton

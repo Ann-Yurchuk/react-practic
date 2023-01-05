@@ -1,16 +1,28 @@
-.TodoList{
-width: 500px;
+.TodoList {
+  width: 200px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-left: 20px;
 }
 
-.TodoList__item{
-display: flex;
-align-items: center;
-justify-content: space-between;
-padding: 20px;
-border: 1px solid red;
+.TodoList__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid red;
 }
 
-.TodoList__text{
-    margin: 5px 10px;
-    
+.TodoList__text {
+  margin: 5px 10px;
+  font-size: 12px;
+}
+
+.TodoList__item--completed {
+  color: blue;
+}
+
+.TodoList__checkbox {
+  color: red;
 }

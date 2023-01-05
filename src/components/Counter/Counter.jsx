@@ -15,16 +15,16 @@ class Counter extends Component {
     this.setState(prevState => ({
       value: prevState.value + 1,
     }));
-    };
-    
+  };
+
   handleDecrement = () => {
     this.setState(prevState => ({
       value: prevState.value - 1,
     }));
   };
 
-    render() {
-        const { value } = this.state;
+  render() {
+    const { value } = this.state;
     return (
       <div className={css.Counter}>
         <span className={css.Counter__value}>{value}</span>

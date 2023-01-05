@@ -19,10 +19,10 @@
   outline: none;
 }
 
-.ColorPicker__title{
-    line-height: 1.3;
+.ColorPicker__title {
+  line-height: 1.3;
 }
 
-.ColorPicker__options--active{
-    transform: scale(1.4);
+.ColorPicker__options--active {
+  transform: scale(1.4);
 }

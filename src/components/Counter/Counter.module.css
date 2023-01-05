@@ -1,13 +1,12 @@
-.Counter{
-    display: flex;
-    justify-content: center;
-    width: 200px;
-    height: 100px;
-  
+.Counter {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 100px;
 }
-.Counter__control{
-display: flex;
-justify-content: space-between;
-width: 50px;
-height: 50px;
+.Counter__control {
+  display: flex;
+  justify-content: space-between;
+  width: 50px;
+  height: 50px;
 }
