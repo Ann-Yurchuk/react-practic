@@ -1,0 +1,24 @@
+.Modal__backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: antiquewhite;
+}
+
+.Modal__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 300px;
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: rgb(0 0 0 / 20%) 0px 3px 3px -2px,
+    rgb(0 0 0 / 14%) 0px 3px 4px 0px, rgb(0 0 0 / 12%) 0px 1px 8px 0px;
+    font-size: 14px;
+}

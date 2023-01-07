@@ -1,0 +1,12 @@
+.TodoList__text {
+    margin: 5px 10px;
+    font-size: 12px;
+}
+
+.TodoList__item--completed {
+    color: blue;
+}
+
+.TodoList__checkbox {
+    color: red;
+}
